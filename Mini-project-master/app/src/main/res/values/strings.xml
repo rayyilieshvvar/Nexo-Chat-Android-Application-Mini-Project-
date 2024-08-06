@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NexoChatApp</string>
+    <string name="send_otp">SEND OTP</string>
+    <string name="mobile">Mobile</string>
+    <string name="next">NEXT</string>
+    <string name="otp">OTP</string>
+    <string name="enter_otp_sent_to_your_mobile_number">Enter OTP sent to your mobile number</string>
+    <string name="user_name">User Name</string>
+    <string name="let_me_in">LET ME IN</string>
+    <string name="resend_the_otp_in_30_sec">Resend the OTP in 30 sec</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_user">Search User</string>
+    <string name="me">(Me)</string>
+</resources>

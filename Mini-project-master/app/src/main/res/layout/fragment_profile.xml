@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:backgroundTint="@color/of_white">
+
+   <ImageView
+       android:id="@+id/profile_image_view"
+       android:layout_width="160dp"
+       android:layout_height="160dp"
+       android:layout_marginBottom="40dp"
+       android:background="@drawable/circular_bg"
+       android:backgroundTint="@color/my_primary"
+       android:scaleType="centerCrop"
+       android:src="@drawable/baseline_person_24"
+
+       />
+
+   <EditText
+       android:id="@+id/profile_userName"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:background="@drawable/edit_text_rounded_corner"
+       android:elevation="5dp"
+       android:hint="@string/user_name"
+       android:inputType="text"
+       android:padding="10dp" />
+   <EditText
+       android:id="@+id/profile_phone"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:background="@drawable/edit_text_rounded_corner"
+       android:elevation="5dp"
+       android:hint="Phone"
+       android:inputType="text"
+       android:enabled="false"
+       android:padding="10dp" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:layout_gravity="center_vertical"
+       android:layout_marginTop="20dp"
+       android:orientation="vertical">
+
+      <Button
+          android:id="@+id/profile_update_btn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+
+          android:background="@drawable/btn_rounded_corner"
+          android:letterSpacing="0.08"
+          android:text="Update"
+          android:textColor="@color/white"
+          android:textSize="18sp" />
+
+      <ProgressBar
+          android:id="@+id/profile_ProgressBar"
+          android:layout_width="32dp"
+          
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:indeterminateTint="@color/my_primary" />
+   </LinearLayout>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Log out"
+       android:textSize="18sp"
+       android:fontFamily="casual"
+       android:layout_marginTop="10dp"
+       android:id="@+id/logout_button"
+       />
+   </LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174978459913",
+    "project_id": "nexochatapp2",
+    "storage_bucket": "nexochatapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174978459913:android:dc4b2d3454c0ce572c4bd8",
+        "android_client_info": {
+          "package_name": "com.example.nexochatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4YTOaM9e3e1rIobfylsqmDXCA_ayeKFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
